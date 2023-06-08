@@ -1,7 +1,7 @@
 ---
-title: "Çalışmanızın Başlığı"
+title: "EĞİTİM HARCAMALARININ İSTİHDAMA KATKILARI"
 author: 
-  - İsim Soyisim[^1]
+  - Zeynep USTA[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa-tr.csl
 header-includes:
@@ -25,44 +25,48 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 abstract: |
-  Bu bölümde çalışmanızın özetini yazınız.
+  
+  
+  ÖZET
+  Eğitimin faydası yalnızca bireyle sınırlı kalmaz, toplumun geneline de fayda sağlar. Günümüzde eğitim uluslararası rekabetin en önemli belirleyicilerindendir. Verimlilik, üretim ve gelir artışının kaynağını eğitimli bireyler oluşturmaktadır. İş gücünün bilgi, beceri ve yetenek niteliklerini arttıran eğitim; ekonomik büyüme ve refah artışını beraberinde getirir. 
+  Bu çalışmada eğitimin istihdamdaki rolü, Türkiye ve diğer OECD ülkeleri açısından analiz edilmeye çalışılmaktadır. Analizlerim sonucunda yıllar içindeki eğitimli insan gücünün istihdama katkısı daha fazla olmaktadır. 
+  OECD'nin data verilerinden eğitim başlığı altındaki eğitim harcamaları ve eğitim harcamalarının istihdama etkisi başlıklı veriler kullanılmıştır. Seçili veriler OECD ülkeleri ve 2018-2020 yılları arasındaki verilerdir. Eğitim harcamalarının 20-24 yaş arasındaki çalışan eğitimli bireylerin istihdama katkıları kişi başına düşen gayri sayfi yurtiçi hasıla ile gösterilmiştir. 
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
-<!-- ======================================================================= -->
-<!-- ============================== NOTLAR ================================= -->
-<!-- ======================================================================= -->
-[^1]: Öğrenci Numarası, [Github Repo](https://github.com/KULLANICI_ADINIZ/REPO_ADINIZ)
 
-# Final Hakkında Önemli Bilgiler
-
-\colorbox{BurntOrange}{GITHUB REPO BAĞLANTINIZI BU DOSYANIN 37. SATIRINA YAZINIZ!}
-
-**Proje gönderimi, Github repo linki ile birlikte ekampus sistemine bir zip dosyası yüklenerek yapılacaktır. Sisteme zip dosyası yüklemezseniz ve Github repo linki vermezseniz ara sınav ve final sınavlarına girmemiş sayılırsınız.**
-
-**Proje klasörünüzü sıkıştırdıktan sonra (`OgrenciNumarasi.zip` dosyası) 9 Haziran 2023 23:59'a kadar *ekampus.ankara.edu.tr* adresine yüklemeniz gerekmektedir.**
-
-\colorbox{WildStrawberry}{Daha fazla bilgi için proje klasöründeki README.md dosyasını okuyunuz.}
+[^1]: 20080305, [Github Repo](https://github.com/ZeynepUstaa/finallll.git)
 
 # Giriş
-Bu taslak size proje ödevinizi yazarken yardımcı olması amacıyla oluşturulmuştur. Ödevlerinizde, makalelerinizde, sunumlarınızda ve projelerinizde kullandığınız tüm bilgi kaynaklarına atıfta bulunmalısınız. Alıntı ve gönderme yapmak okuyuculara çalışmanızda kullandığınız/başvurduğunuz  kaynaklara ulaşma imkanı sağlar. **Her ne kadar kendi sözlerinizi kullanıyor olsanız da, başkalarına ait fikirleri çalışmanızda aktarıyorsanız bu fikirlerin kaynağını belgelemek zorundasınız. Aksi takdirde akademik intihal yapmış olursunuz.** Yazım konusunda @aydinonat:2007'ye başvurabilirsiniz. 
+İnsanlığın öğrendiklerini sonraki nesillere aktarma isteğiyle oluşan eğitim kavramı, insanlık tarihi kadar eskidir. Eğitim kavramı, değişiklik yaratma süreci olarak tanımlanır. Bireyin davranışlarında, düşünce yapısında ve becerilerinde değişiklik yaratma sürecidir. Eğitim, sadece birey ile sınırlı bir fayda sağlamaz aynı zamanda toplumun geneline de fayda sağlar. Bir bakıma bireyi yetiştirme faaliyetidir ve nesiller boyunca devamı olan bu yetiştirmenin de devlet ve bireyler tarafından karşılanan bir maliyeti vardır, bu maliyetler ‘eğitim harcamaları’ olarak adlandırılır. 
 
+Eğitim, tüm ülkelerin ekonomik büyüme düzeyi ve hızı açısından önemli bir yere sahiptir. Tüm ekonomik süreçlerin temelinde insan vardı. İktisat literatüründe bu insan faktörüne ‘beşeri sermaye’ adı verilir, bu kavram kişinin ya da toplumun sahip olduğu bilgi, beceri, yetenekler, sağlık durumu, toplumsal ilişkilerdeki yeri ve eğitim düzeyi gibi kavramların tümünü ifade etmek için kullanılmaktadır. Hizmet ve üretim sistemleri karmaşık hale geldikçe çalışanlarda yüksem öğrenim seviyesi aranmaktadır. Günümüzde kol gücünün üretimdeki rolü büyük ölçüde azalırken, beyin gücü ve makinelerin rolü artmaktadır. Üretimdeki bu yapısal değişiklikler, insanların üretim sürecindeki fiziksel rolünü azaltırken, zihinsel üretimi için zaman kazandırır. Ülkeler en azından ekonomik kalkınmalarını ve gelişmelerini devam ettirebilmeleri veya hızlandırabilmeleri için insan kaynaklarını geliştirmek zorunda kalmışlardır. İnsan kaynaklarını geliştirmek amacıyla yapılan eğitim harcamaları, aynı zamanda bir yatırım olarak kabul edilmekte ve bu yatırımlar sayesinde sosyal eşitsizlikler azaltılabilmektedir. 
 
-Proje ödevinizde yer alan başlıkların bu metinde yer alan başlıkları kesinlikle içermesi gerekmektedir. Burada kullanılan başlıklar haricinde farklı alt başlıklar da kullanabilirsiniz. Projenizi yazarken bu dosyayı taslak olarak kullanıp içeriğini projenize uyarlayınız.
+Beşeri sermayenin nitelikleri ve becerileri ekonomik süreçlerin sonuçlarını ve dolayısıyla ekonomik büyüme ve kalkınma üzerinde doğrudan etkiye sahiptir. Eğitimin; işgücünün beceri ve üretkenlik kapasitesini geliştirdiği, bu yolla da milli gelirin artmasına katkıda bulunduğu ve hatta geçmişte yaşanan ABD’deki hızlı büyüme oranının önemli bir bölümünün eğitime yapılan yatırımlardan kaynaklandığı görüşü klasik iktisatçılarca da desteklenmiştir. Bireyler tarafından edinilen becerilerin düzeyi ne kadar yüksek olursa, bireylerin refah düzeyi o kadar sürdürülebilir ve ekonomik büyüme o kadar sağlıklı olur.  
+
 
 ## Çalışmanın Amacı
-Bu bölümde yaptığınız çalışmanın amacından ve öneminden birkaç paragraf ile bahsediniz.
+Bu araştırmada, içinde Türkiye’nin de bulunduğu OECD (Ekonomik İş Birliği ve Kalkınma Teşkilatı) ülkelerindeki eğitim harcamaları ve eğitimin istihdama katkılarını göstermek amaçlanmıştır. Araştırmanın analizinde, OECD (2018-2020) verilerinden yararlanılacaktır. Verilerdeki eğitim harcamaları; okullar, üniversiteler ve diğer kamu ve özel eğitim kurumlarına yapılan harcamaları kapsar. Harcama, eğitim kurumları aracılığıyla öğrenciler ve aileler için sağlanan eğitim ve yardımcı hizmetleri içerir. Harcama, öğrenci başına GSYH’nin yüzdesi olarak gösterilir. 
 
 ## Literatür 
+Araştırmalar sonucunda varılan ortak nokta eğitim harcamalarının GSYH'de önemli bir paya sahip olduğu ülkelerde, ekonomik büyüme ve kalkınmanın sağlıklı, uzun ömürlü olduğudur. Günümüzde beşeri sermayenin önemi temel sermayenin öneminden daha fazladır ve beşeri sermayenin kalifiye hale gelmesi eğitim ile sağlanmaktadır. Eğitimli insana duyulan ihtiyaç zaman içinde artmış ve ülkeler ekonomik kalkınma ve gelişmelerini devam ettirebilmeleri ve hızlandırmaları için insan kaynaklarını geliştirmek zorunda kalmışlardır.Eğitim ile büyüme arasında çift yönlü bir ilişki mevcuttur. Bir taraftan büyüyen ekonomiler eğitime daha çok kaynak ayırma imkanı 
+bulurken; diğer taraftan artan eğitim harcamaları beşeri sermayeyi geliştirdiği oranda ekonomik büyümeye katkı sağlayabilmektedir. Bu yüzden günümüzde OECD ülkelerinin birçoğunda lise öğretimi, tüm öğrencilerin tamamladığı bir eğitim kademesidir. Bu sayede, asgari eğitim düzeyi yükselmektedir.Eğitim özellikle gelişmekte olan ülkelerde ekonomik ve teknolojik gelişmenin anahtarı olarak kabul edilmektedir. Bir taraftan kalkınma sürecinde ihtiyaç 
+duyulan nitelik ve nicelikte işgücü sağlama fonksiyonunu yerine getirirken; diğer taraftan bilgi üretme ve yayma fonksiyonu ile ülkelerin modern üretim teknolojilerini takip etme, geliştirme ve üretim sürecine aktarmasına katkı sağlamaktadır. 
+Okuduğum makalelerin bazılarının kullandığı yöntem ve verileri aşağıda referans vereceğim.  
 
-Bu bölümde konu ile ilgili olarak okuduğunuz makaleleri referans vererek tartışınız. **Her makaleyi ayrı başlık altında tek tek özetlemeyiniz.** Literatür taramasında **en az altı** makaleye atıf yapılması ve bu makalelerden **en az ikisinin İngilizce** olması gerekmektedir.
+Taş ve Yenilmez (2007) tarafından yapılan çalışma Eskişehir Osmangazi Üniversitesinde Türkiye’deki eğitimin kalkınma üzerindeki rolü ve eğitim yatırımlarının geri dönüş oranı incelenmiş olup 2002 yılı verileri kullanılmış ve fayda-maliyet analizinden yararlanılmıştır.[@tacs2008turkiye] 
+
+Akın Mart ve Kartal (2021) tarafından yapılan çalışmada Muğla Sıtkı Koçman Üniversitesi Eğitim Fakültesinde Türkiye’deki eğitim harcamalarının incelenmesi ve içinde Türkiye’nin de olduğu diğer OECD ülkelerinin karşılaştırılarak analiz edilmesi amaçlanmıştır. Araştırmanın analizinde TÜİK ve OECD 2019 verilerinden yararlanılmasından dolayı aynı zamanda güncel sayılabilecek bir araştırmadır. Araştırmada eğitim harcamalarının gayrisafi yurtiçi hasıla (GSYH) içindeki oranına da yer verilmiş ve incelenmiştir.[@akin2021turkiye]  
+
+Karaçor, Güvenek, Ekinci ve Konya tarafından yapılan Selçuk Üniversitesi Ekonomi Bölümünün İngilizce makale çalışmasında, 20. yüzyıldan itibaren klasik iktisat teorisinde yer alan temel üretim faktörlerine eklenen beşeri sermayeye dikkat çekilmiş ve daha yüksek eğitim seviyesiyle artan kazançların OECD ülkelerinde istihdam, büyüme ve refaha olan önemli katkıları panel veri yöntemi kullanılarak analiz edilmiştir.[@karaccor2017relationship]
+
+Appiah (2017) tarafından Pentecost Üniversitesi Ekonomi bölümünde yapılan çalışmada sadece OECD ülkeleri değil gelişmekte olan ülkelerin eğitim harcamalarının kişi başına düşen milli gelir üzerinde olumlu bir etki yaratıp yaratmadığı incelenmiş ve bunu tahmin etmek için GMM tahmin edicisi kullanılmıştır.[@appiah2017efekti]  
+
 
 # Veri 
-Bu bölümde çalışmanızda kullandığınız veri setinin kaynağını, ham veri üzerinde herhangi bir işlem yaptıysanız bu işlemleri ve veri seti ile ilgili özet istatistikleri tartışınız. Bu bölümde tüm değişkenlere ait özet istatistikleri (ortalama, standart sapma, minimum, maksimum, vb. değerleri) içeren bir tablo (Tablo \ref{tab:ozet}) olması zorunludur. Tablolarınıza gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız. [@perkins:1991]
-
-Analize ait R kodları bu bölümde başlamalıdır. Bu bölümde veri setini R'a aktaran ve özet istatistikleri üreten kodlar yer almalıdır.
+Kullandığım veri setini OECD'nin datasından alıp geniş verileri yerine kendim seçip küçülttüğüm veri setini kullandım. Seçtiğim verilerde OECD ülkeleri ve bu ülkelerin 2 seneyi(2018-2020) kapsayan verilerini kullandım. Bu verilerin içeriğinde 20-24 yaş aralığındaki eğitimli nüfusun ülke istihdamına katkıları gözlenmektedir. Özet İstatistikler adlı tablomda 2018-2020 yılları arasındaki veri değerlerinin ortalaması, standart sapması, medyanı, minimum ve maximum değerleri görünebilmektedir.
 
 ```{r}
 library(tidyverse)
@@ -70,7 +74,7 @@ library(here)
 istih <- read_csv(here("../data/istih.csv"))
 ```
 
-Rmd dosyasında kod bloklarının bazılarında kod seçeneklerinin düzenlendiğine dikkat edin. 
+
 
 ```{r, echo=FALSE}
 library(xtable) 
@@ -79,7 +83,7 @@ library(summarytools)
 st_options(lang = "tr")
 ```
 
-`echo=FALSE` seçeneği ile kodların türetilen pdf dosyasında görünmesini engelleyin ve sonuçlarınızı tablo halinde rapor edin.
+
 
 ```{r results='asis', echo=FALSE}
 istih %>%
@@ -93,9 +97,10 @@ istih %>%
 
 
 # Yöntem ve Veri Analizi
-Bu bölümde veri setindeki bilgileri kullanarak çalışmanın amacına ulaşmak için kullanılacak yöntemleri açıklayın. Derste işlenen/işlenecek olan analiz yöntemlerinden (Hipotez testleri ve korelasyon analizi gibi) çalışmanın amacına ve veri setine uygun olanlar bu bölümde kullanılmalıdır. [@newbold:2003; @ozsoy:2010; @ozsoy:2014]
 
-```{r}
+Oluşturduğum bu tabloda ülkelerin istihdam oranlarının varyanslarının birbirinden ne kadar farklı olduğunu görmek ve test etmek istedim. Testler normal çıkmadığı için tablo olarak da gösterdim.
+
+```{r, echo=FALSE}
 library(broom)
 
 istih %>% 
@@ -110,16 +115,15 @@ ggplot(istih) +
 ```
 
 
-Örneğin, regresyon analizi gerçekleştiriyorsanız tahmin ettiğiniz denklemi bu bölümde tartışınız. Denklemlerinizi ve matematiksel ifadeleri $LaTeX$ kullanarak yazınız.
 
 $$
 Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
 $$
+Oluşturduğum saçılım grafiği ile zaman değişimleriyle birlikte tüm ülkelerin değişen istihdamlarını göstermek istedim.
 
-Bu bölümde analize ilişkin farklı tablolar ve grafiklere yer verilmelidir. Çalışmanıza uygun biçimde histogram, nokta grafiği (Şekil \@ref(fig:plot) gibi), kutu grafiği, vb. grafikleri bu bölüme ekleyiniz. Şekillerinize de gerekli göndermeleri bir önceki cümlede gösterildiği gibi yapınız.
 
 
-```{r plot, fig.align='center', fig.cap='Muhteşem Bir Grafik'}
+```{r plot, fig.align='center', fig.cap=''}
 istih %>% 
   ggplot(aes(x = TIME, y = Value)) +
   geom_point() +
@@ -129,7 +133,9 @@ istih %>%
 ```
 
 
-```{r}
+Histogram grafiği ile istahdam oranlarının değişimini inceleyebiliriz. 
+
+```{r, echo=FALSE}
 ggplot(istih, aes(x = Value)) +
   geom_histogram(color="white",
                 fill= "black" ) +
@@ -143,11 +149,10 @@ ggplot(istih, aes(x = Value)) +
 
 
 # Sonuç
-Bu bölümde çalışmanızın sonuçlarını özetleyiniz. Sonuçlarınızın başlangıçta belirlediğiniz araştırma sorusuna ne derece cevap verdiğini ve ileride bu çalışmanın nasıl geliştirilebileceğini tartışınız.
 
-**Kaynakça bölümü Rmarkdown tarafından otomatik olarak oluşturulmaktadır. Taslak dosyada Kaynakça kısmında herhangi bir değişikliğe gerek yoktur.** 
+Çalışmamın başında amaçladığım OECD ülkelerinde eğitim harcamalarının istihdama olan katkılarını göstermekti. Araştırma yaptığım konu aslında tüm Dünya'yı kapsasada ben bunu yalnızca OECD ülkelerine indirgemiş ve daha küçük bir alanda araştırma yaptım. OECD ülkelerinin gelişmişliğinden de kaynaklanabileceğini düşündüğüm bir sonuç olan eğitim harcamalarının istihdamı genişletiğini gördüm. Bu çalışmanın verilerinin genişletilmesi ile çok daha doğru sonuçlara ulaşılacağını düşünüyorum. Verilerimin dar bir alandan alınmasından dolayı tam olarak istediğim verileri sunamasam da atıfladığım makaleler ve kullandığım veriler sonucunda projemin amacına ulaştığını ümit ediyorum.
 
-**_Taslakta bu cümleden sonra yer alan hiçbir şey silinmemelidir._**
+
 
 \newpage
 # Kaynakça {#references}

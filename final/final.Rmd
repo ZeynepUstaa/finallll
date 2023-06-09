@@ -27,10 +27,10 @@ biblio-style: apalike
 abstract: |
   
   
-  ÖZET
+  
   Eğitimin faydası yalnızca bireyle sınırlı kalmaz, toplumun geneline de fayda sağlar. Günümüzde eğitim uluslararası rekabetin en önemli belirleyicilerindendir. Verimlilik, üretim ve gelir artışının kaynağını eğitimli bireyler oluşturmaktadır. İş gücünün bilgi, beceri ve yetenek niteliklerini arttıran eğitim; ekonomik büyüme ve refah artışını beraberinde getirir. 
   Bu çalışmada eğitimin istihdamdaki rolü, Türkiye ve diğer OECD ülkeleri açısından analiz edilmeye çalışılmaktadır. Analizlerim sonucunda yıllar içindeki eğitimli insan gücünün istihdama katkısı daha fazla olmaktadır. 
-  OECD'nin data verilerinden eğitim başlığı altındaki eğitim harcamaları ve eğitim harcamalarının istihdama etkisi başlıklı veriler kullanılmıştır. Seçili veriler OECD ülkeleri ve 2018-2020 yılları arasındaki verilerdir. Eğitim harcamalarının 20-24 yaş arasındaki çalışan eğitimli bireylerin istihdama katkıları kişi başına düşen gayri sayfi yurtiçi hasıla ile gösterilmiştir. 
+  OECD'nin data verilerinden eğitim başlığı altındaki eğitim harcamalarının istihdama etkisi başlıklı veriler kullanılmıştır. Seçili veriler OECD ülkeleri ve 2018-2020 yılları arasındaki verilerdir. Eğitim harcamalarının 20-24 yaş arasındaki çalışan eğitimli bireylerin istihdama katkıları kişi başına düşen gayri sayfi yurtiçi hasıla ile gösterilmiştir. 
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
@@ -117,7 +117,7 @@ ggplot(istih) +
 
 
 
-Oluşturduğum saçılım grafiği ile zaman değişimleriyle birlikte tüm ülkelerin değişen istihdamlarını göstermek istedim.
+Oluşturduğum saçılım grafiği ile zaman değişimleriyle birlikte tüm OECD ülkelerinin değişen istihdamlarını göstermek istedim. X eksenine zamanı, Y eksenine ise istihdam oranlarını koyarak değişen istihdam oranlarına vurgu yaptım.
 
 
 
@@ -131,7 +131,7 @@ istih %>%
 ```
 
 
-Histogram grafiği ile istahdam oranlarının değişimini inceleyebiliriz. 
+Histogram grafiği ile istahdam oranlarının değişimini inceleyebiliriz. Bu grafikte yalnızca x eksenine istahdam değerini koyarak istihdam oranlarını göstermeyi amaçladım.
 
 ```{r, echo=FALSE}
 ggplot(istih, aes(x = Value)) +
@@ -143,12 +143,20 @@ ggplot(istih, aes(x = Value)) +
 ```
 
 
+```{r}
+istih %>%
+  ggplot() +
+  aes(x = Value, group = LOCATION, fill = LOCATION) +
+  geom_density() +
+  facet_wrap(~LOCATION) +
+  labs(y = "", x = "", title = "ÜLKELERE GÖRE İSTİHDAM ORANI")
+```
 
 
 
 # Sonuç
 
-Çalışmamın başında amaçladığım OECD ülkelerinde eğitim harcamalarının istihdama olan katkılarını göstermekti. Araştırma yaptığım konu aslında tüm Dünya'yı kapsasada ben bunu yalnızca OECD ülkelerine indirgemiş ve daha küçük bir alanda araştırma yaptım. OECD ülkelerinin gelişmişliğinden de kaynaklanabileceğini düşündüğüm bir sonuç olan eğitim harcamalarının istihdamı genişletiğini gördüm. Bu çalışmanın verilerinin genişletilmesi ile çok daha doğru sonuçlara ulaşılacağını düşünüyorum. Verilerimin dar bir alandan alınmasından dolayı tam olarak istediğim verileri sunamasam da atıfladığım makaleler ve kullandığım veriler sonucunda projemin amacına ulaştığını ümit ediyorum.
+Çalışmamın başında amaçladığım OECD ülkelerinde eğitim harcamalarının istihdama olan katkılarını göstermekti. Araştırma yaptığım konu aslında tüm Dünya'yı kapsasada ben bunu yalnızca OECD ülkelerine indirgedim ve daha küçük bir alanda araştırma yaptım. OECD ülkelerinin gelişmişliğinden de kaynaklanabileceğini düşündüğüm bir sonuç olan eğitim harcamalarının istihdamı genişlettiğini gördüm. Bu çalışmanın verilerinin genişletilmesi ile çok daha doğru sonuçlara ulaşılacağını düşünüyorum. Verilerimin dar bir alandan alınmasından dolayı tam olarak istediğim verileri sunamasam da atıfladığım makaleler ve kullandığım veriler sonucunda projemin amacına ulaştığını ümit ediyorum.
 
 
 

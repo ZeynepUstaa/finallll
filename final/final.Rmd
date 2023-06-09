@@ -68,7 +68,7 @@ Appiah (2017) tarafından Pentecost Üniversitesi Ekonomi bölümünde yapılan 
 # Veri 
 Kullandığım veri setini OECD'nin datasından alıp geniş verileri yerine kendim seçip küçülttüğüm veri setini kullandım. Seçtiğim verilerde OECD ülkeleri ve bu ülkelerin 2 seneyi(2018-2020) kapsayan verilerini kullandım. Bu verilerin içeriğinde 20-24 yaş aralığındaki eğitimli nüfusun ülke istihdamına katkıları gözlenmektedir. Özet İstatistikler adlı tablomda 2018-2020 yılları arasındaki veri değerlerinin ortalaması, standart sapması, medyanı, minimum ve maximum değerleri görünebilmektedir.
 
-```{r}
+```{r, echo=FALSE}
 library(tidyverse)
 library(here)
 istih <- read_csv(here("../data/istih.csv"))
@@ -116,14 +116,12 @@ ggplot(istih) +
 
 
 
-$$
-Y_t = \beta_0 + \beta_N N_t + \beta_P P_t + \beta_I I_t + \varepsilon_t
-$$
+
 Oluşturduğum saçılım grafiği ile zaman değişimleriyle birlikte tüm ülkelerin değişen istihdamlarını göstermek istedim.
 
 
 
-```{r plot, fig.align='center', fig.cap=''}
+```{r plot, fig.align='center', fig.cap='',echo=FALSE }
 istih %>% 
   ggplot(aes(x = TIME, y = Value)) +
   geom_point() +
